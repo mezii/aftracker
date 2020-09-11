@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conversions",
+  "info": {
+    "name": "Conversions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Success": {
+      "type": "json"
+    },
+    "Fails": {
+      "type": "json"
+    }
+  }
+}
